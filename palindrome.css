@@ -1,0 +1,81 @@
+:root{
+  --color-1: rgb(17,28,36);
+  --color-2: rgb(255,255,255);
+  --color-3: rgb(138,140,141);
+  --color-4: rgb(97,99,101);
+  --color-5: rgb(250,104,63);
+}
+html{
+  font-family: audiowide,cambria;
+}
+
+
+
+body{
+  background-color:var(--color-1);
+  padding-top:30px;
+}
+
+h1{
+  text-align:center;
+  color:var(--color-5);
+
+}
+
+#testerBox{
+width:clamp(300px, 60%, 800px);
+margin:0 auto;
+background-color:var(--color-4);
+padding:10px;
+border-radius:20px;
+box-shadow:2px 2px 4px black;
+}
+
+p{
+  text-align:center;
+  color:var(--color-2);
+}
+
+
+input{
+  background-color:var(--color-1);
+  color:white;
+}
+
+
+input::placeholder{
+  color:var(--color-5)
+}
+
+
+button{
+  background-color:var(--color-5)
+}
+
+#result{
+  color:var(--color-5);
+}
+#word{
+  color:white;
+}
+
+
+form{
+  text-align:center;
+}
+
+h4{
+  text-align:center;
+  color:white;
+
+}
+
+#definition{
+  width:clamp(200px, 40%, 600px);
+  margin:auto;
+  border:3px solid var(--color-5);
+  padding:10px;
+  border-radius:20px;
+  color:var(--color-3);
+  text-shadow:.5px .5px 1px lightgray;
+}
